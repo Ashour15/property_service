@@ -18,6 +18,8 @@ gem 'puma', '~> 5.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+#Allows you to map incoming controller parameters to named scopes in your resources.
+gem 'has_scope'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
