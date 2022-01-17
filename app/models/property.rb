@@ -3,7 +3,7 @@ class Property < ApplicationRecord
   acts_as_geolocated
 
   # Constants ---------------------------------------------------------
-  # Value in Kilometers
+  # Value in Meters
   DEFAULT_RADIUS = 50000
  
   # Scopes ------------------------------------------------------------
