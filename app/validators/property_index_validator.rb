@@ -8,8 +8,8 @@ class PropertyIndexValidator
 
   validates :lat, numericality: true, presence: true
   validates :lng, numericality: true, presence: true
-  validates :offer_type, inclusion: AVAILABLE_OFFER_TYPES, presence: true
-  validates :property_type, inclusion: AVAILABLE_PROPERTY_TYPES, presence: true
+  validates :by_offer_type, inclusion: AVAILABLE_OFFER_TYPES, presence: true
+  validates :by_property_type, inclusion: AVAILABLE_PROPERTY_TYPES, presence: true
 
   def initialize(data)
     @data = data
