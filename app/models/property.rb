@@ -4,7 +4,7 @@ class Property < ApplicationRecord
 
   # Constants ---------------------------------------------------------
   # Value in Meters
-  DEFAULT_RADIUS = 50000
+  DEFAULT_RADIUS = 5000
  
   # Scopes ------------------------------------------------------------
   scope :nearest,           ->(lat, lng) { within_radius(DEFAULT_RADIUS, lat, lng).order_by_distance(lat, lng) }
