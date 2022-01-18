@@ -23,8 +23,9 @@ gem 'has_scope'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
-#Enables your model to query the database using the earthdistance extension
+# Enables your model to query the database using the earthdistance extension
 gem 'activerecord-postgres-earthdistance'
+gem 'rspec-rails', '~> 5.0.0'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'

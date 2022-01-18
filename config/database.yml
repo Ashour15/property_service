@@ -12,3 +12,7 @@ development:
 production:
   <<: *default
   database: db/production.postgresql
+
+test:
+  <<: *default
+  database: property-test
